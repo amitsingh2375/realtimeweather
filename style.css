@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('images/clear1.jfif');
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    background-position:top center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    
+}
+.app-main{
+    padding: 20px;
+    width: 50vh;
+    margin: 100px auto;
+    background-color: rgba(240, 248, 255, 0.5);
+    text-align: center;
+    
+}
+
+.app-main>*{
+    margin-bottom: 20px;
+}
+
+.input-box{
+    width: 100%;
+    background-color: rgba(258,250, 255, 0.5);
+    height: 50px;
+    font-size: 1.2rem;
+    outline: none;
+    border-radius: 6px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.weather-body{
+line-height: 2rem;
+border-radius: 10px;
+background-color: rgba(249, 252, 248, 0.041);
+height: 50vh;
+}
+.location-details{
+    font-weight: bold;
+
+}
+.weather-status{
+    padding: 20px;
+    margin-top: 14vh;
+
+}
+.temp{
+    font-size: 50pt;
+    font-weight: 700;
+    margin: 20px 0;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.min-max, .weather{
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
